@@ -32,8 +32,6 @@
         border-radius: 10px;
         color: white;
         text-decoration: none;
-        animation: show 2s linear;
-        animation-delay: 5s;
       }
       a.show {
         opacity: 1;
@@ -62,7 +60,7 @@
     let btn = document.getElementById("btn");
     setTimeout(() => {
       btn.classList.add("show");
-    }, 5000);
+    }, 10000);
 
     btn.addEventListener("click", (e) => {
       e.preventDefault();
